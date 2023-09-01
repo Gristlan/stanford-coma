@@ -48,8 +48,8 @@ jobs:
         with:
           pin-name: game ${{ needs.bump_version.outputs.new_tag }}
           path: './dist'
-          pinata-api-key: ${{ secrets.PINATA_API_KEY }}
-          pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
+          pinata-api-key: b69a1738b7579a8c5914
+          pinata-secret-api-key: f65b70697da4930af58c51db5c327ba8f1f5b1e3447e5949d21a561749cd89d5
 
       - name: Convert CIDv0 to CIDv1
         id: convert_cidv0
